@@ -6,7 +6,7 @@
 /*   By: vgribkov <vgribkov@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/25 12:47:40 by vgribkov          #+#    #+#             */
-/*   Updated: 2023/06/02 12:02:47 by vgribkov         ###   ########.fr       */
+/*   Updated: 2023/06/02 12:17:16 by vgribkov         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,11 +22,4 @@ size_t	ft_strlen(const char *str)
 	while (str[i])
 		i++;
 	return (i);
-}
-
-int	main(void)
-{
-	char *str = "zxc";
-	printf("%zu", ft_strlen(str));
-	return (0);
 }
